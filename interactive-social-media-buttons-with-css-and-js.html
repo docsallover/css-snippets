@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Social Media Buttons</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css">
+    <style>
+        body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: #F1F3F6;
+    }
+    * {
+        list-style: none;
+        outline: none;
+        padding: 0;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .con-social-btns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0px;
+        color: #fff;
+        cursor: pointer;
+        background: transparent;
+        position: relative;
+        transition: all .25s ease;
+        /* margin-left: -12px;
+        margin-right: -12px; */
+    }
+    button:active {
+        transform: scale(.85);
+    }
+    .bg {
+        position: absolute;
+        width: 60px;
+        background: rgb(65, 53, 214);
+        height: 60px;
+        border-radius: 25px;
+        pointer-events: none;
+        box-shadow: 0px 8px 35px 0px rgba(65, 53, 214, .25);
+    }
+    button i {
+        pointer-events: none;
+        font-size: 1.8rem;
+        z-index: 10;
+        position: relative;
+    }
+    </style>
+</head>
+<body>
+    <div class="con-social-btns">
+        <button>
+            <i class='bx bxl-instagram-alt' ></i>
+            <div class="bg"></div>
+        </button>
+        <button>
+            <i class='bx bxl-twitter' ></i>
+            <div class="bg"></div>
+        </button>
+        <button>
+            <i class='bx bxl-github' ></i>
+            <div class="bg"></div>
+        </button>
+        <button>
+            <i class='bx bxl-discord' ></i>
+            <div class="bg"></div>
+        </button>
+        <button>
+            <i class='bx bxl-codepen' ></i>
+            <div class="bg"></div>
+        </button>
+    </div>
+    <script>
+        const btns = document.querySelectorAll('.con-social-btns button')
+
+btns.forEach((item) => {
+    item.addEventListener('mousemove', (evt) => {
+        const x = evt.layerX - 60
+        const y = evt.layerY - 60
+        const bg = evt.target.querySelector('.bg')
+        const i = evt.target.querySelector('i.bx')
+        bg.style.transform = `translate(${x / 8}px, ${y / 8}px)`
+        i.style.transform = `translate(${x / 4}px, ${y / 4}px)`
+    })
+
+    item.addEventListener('mouseenter', (evt) => {
+        const bg = evt.target.querySelector('.bg')
+        const i = evt.target.querySelector('i.bx')
+        bg.style.transition = 'all .15s ease'
+        i.style.transition = 'all .15s ease'
+        setTimeout(() => {
+            bg.style.transition = ''
+            i.style.transition = ''
+        }, 150);
+    })
+
+    item.addEventListener('mouseleave', (evt) => {
+        const bg = evt.target.querySelector('.bg')
+        const i = evt.target.querySelector('i.bx')
+        bg.style.transition = 'all .25s ease'
+        i.style.transition = 'all .25s ease'
+        bg.style.transform = `translate(${0}px, ${0}px)`
+        i.style.transform = `translate(${0}px, ${0}px)`
+
+        setTimeout(() => {
+            bg.style.transition = ''
+            i.style.transition = ''
+        }, 250);
+    })
+})
+    </script>
+</body>
+</html>
