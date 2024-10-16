@@ -8,6 +8,11 @@ This snippet showcases a compact and efficient FAQ component that allows users t
 This snippet showcases a visually appealing row of social media buttons that feature subtle animations on hover and open the corresponding links in a new tab, making it easy for users to connect with your online presence.
   - live Preview: https://docsallover.com/snippets/css/interactive-social-media-buttons-with-css-and-js/
 
+## 3. Responsive CSS3 Pricing Table with Hover Animation 
+This snippet showcases a visually appealing and interactive pricing table that adapts seamlessly to different screen sizes and highlights key features with engaging hover effects.
+  - live Preview: https://docsallover.com/snippets/css/responsive-css3-pricing-table-with-hover-animation/
+
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
