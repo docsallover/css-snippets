@@ -12,6 +12,10 @@ This snippet showcases a visually appealing row of social media buttons that fea
 This snippet showcases a visually appealing and interactive pricing table that adapts seamlessly to different screen sizes and highlights key features with engaging hover effects.
   - live Preview: https://docsallover.com/snippets/css/responsive-css3-pricing-table-with-hover-animation/
 
+## 4. Collection of CSS3 Loading Animations 
+This snippet showcases a variety of visually appealing CSS3 loading animations that enhance the user experience and provide feedback during loading processes.
+  - live Preview: https://docsallover.com/snippets/css/collection-of-css3-loading-animation/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
