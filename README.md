@@ -16,6 +16,10 @@ This snippet showcases a visually appealing and interactive pricing table that a
 This snippet showcases a variety of visually appealing CSS3 loading animations that enhance the user experience and provide feedback during loading processes.
   - live Preview: https://docsallover.com/snippets/css/collection-of-css3-loading-animation/
 
+## 5. Toast Notification to Detect Internet Connection in CSS & JS
+This snippet showcases a user-friendly notification that provides real-time feedback on internet connectivity, ensuring a seamless user experience.
+  - live Preview: https://docsallover.com/snippets/css/toast-notification-to-detect-internet-connection/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
