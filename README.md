@@ -20,6 +20,18 @@ This snippet showcases a variety of visually appealing CSS3 loading animations t
 This snippet showcases a user-friendly notification that provides real-time feedback on internet connectivity, ensuring a seamless user experience.
   - live Preview: https://docsallover.com/snippets/css/toast-notification-to-detect-internet-connection/
 
+## 6. Nested Drop-down Menu with CSS and JS 
+This snippet showcases a versatile and user-friendly nested drop-down menu that allows for easy navigation through multiple levels of options.
+  - live Preview: https://docsallover.com/snippets/css/nested-drop-down-menu-with-css-and-js/
+
+## 7. Animated Search Bar with CSS and JS 
+This snippet showcases a visually appealing and interactive search bar with smooth animations and intuitive functionality, enhancing the user experience.
+  - live Preview: https://docsallover.com/snippets/css/animated-search-bar-with-css-and-js/
+
+## 8. Advanced App Download Button Concept with CSS3 
+This snippet showcases a visually appealing and engaging app download button with customizable styling and hover effects, encouraging users to take action.
+  - live Preview: https://docsallover.com/snippets/css/advanced-app-download-button-concept-with-css3/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.

@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Advanced Drop-down Menu using HTML CSS and JavaScript</title>
+    <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #18191A;
+            overflow: hidden;
+        }
+
+        nav {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        nav .drop-btn {
+            width: 400px;
+            background: #242526;
+            border-radius: 5px;
+            line-height: 55px;
+            font-size: 20px;
+            font-weight: 500;
+            color: #b0b3b8;
+            padding: 0 20px;
+        }
+
+        nav .drop-btn span {
+            float: right;
+            line-height: 50px;
+            font-size: 28px;
+            cursor: pointer;
+        }
+
+        nav .tooltip {
+            position: absolute;
+            right: 20px;
+            bottom: -20px;
+            height: 15px;
+            width: 15px;
+            background: #242526;
+            ;
+            transform: rotate(45deg);
+            display: none;
+        }
+
+        nav .tooltip.show {
+            display: block;
+        }
+
+        nav .wrapper {
+            position: absolute;
+            top: 65px;
+            display: flex;
+            width: 400px;
+            overflow: hidden;
+            border-radius: 5px;
+            background: #242526;
+            display: none;
+            transition: all 0.3s ease;
+        }
+
+        nav .wrapper.show {
+            display: block;
+            display: flex;
+        }
+
+        .wrapper ul {
+            width: 400px;
+            list-style: none;
+            padding: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .wrapper ul li {
+            line-height: 55px;
+        }
+
+        .wrapper ul li a {
+            position: relative;
+            color: #b0b3b8;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 0 10px;
+            display: flex;
+            border-radius: 8px;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .wrapper ul li:hover a {
+            background: #3A3B3C;
+        }
+
+        ul li a .icon {
+            height: 40px;
+            width: 40px;
+            margin-right: 13px;
+            background: #ffffff1a;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            border-radius: 50%;
+        }
+
+        ul li a .icon span {
+            line-height: 40px;
+            font-size: 20px;
+            color: #b0b3b8;
+        }
+
+        ul li a i {
+            position: absolute;
+            right: 10px;
+            font-size: 25px;
+            pointer-events: none;
+        }
+
+        .wrapper ul.setting-drop,
+        .wrapper ul.help-drop {
+            display: none;
+        }
+
+        .wrapper .arrow {
+            padding-left: 10px;
+            font-size: 20px;
+            font-weight: 500;
+            color: #b0b3b8;
+            cursor: pointer;
+        }
+
+        .wrapper .arrow span {
+            margin-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="drop-btn">
+            Drop down <span class="fas fa-caret-down"></span>
+        </div>
+        <div class="tooltip"></div>
+        <div class="wrapper">
+            <ul class="menu-bar">
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-home"></span>
+                        </div>
+                        Home
+                    </a>
+                </li>
+                <li class="setting-item">
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-cog"></span>
+                        </div>
+                        Settings & privacy <i class="fas fa-angle-right"></i>
+                    </a>
+                </li>
+                <li class="help-item">
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-question-circle"></span>
+                        </div>
+                        Help & support <i class="fas fa-angle-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-user"></span>
+                        </div>
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-comment-alt"></span>
+                        </div>
+                        Feedback
+                    </a>
+                </li>
+            </ul>
+            <!-- Settings & privacy Menu-items -->
+            <ul class="setting-drop">
+                <li class="arrow back-setting-btn"><span class="fas fa-arrow-left"></span>Settings & privacy</li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-user"></span>
+                        </div>
+                        Personal info
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                        Password
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-address-book"></span>
+                        </div>
+                        Activity log
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-globe-asia"></span>
+                        </div>
+                        Languages
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-sign-out-alt"></span>
+                        </div>
+                        Log out
+                    </a>
+                </li>
+            </ul>
+            <!-- Help & support Menu-items -->
+            <ul class="help-drop">
+                <li class="arrow back-help-btn"><span class="fas fa-arrow-left"></span>Help & support</li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-question-circle"></span>
+                        </div>
+                        Help centre
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-envelope"></span>
+                        </div>
+                        Support Inbox
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-comment-alt"></span>
+                        </div>
+                        Send feedback
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <span class="fas fa-exclamation-circle"></span>
+                        </div>
+                        Report problem
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript'>
+        const drop_btn = document.querySelector(".drop-btn span");
+        const tooltip = document.querySelector(".tooltip");
+        const menu_wrapper = document.querySelector(".wrapper");
+        const menu_bar = document.querySelector(".menu-bar");
+        const setting_drop = document.querySelector(".setting-drop");
+        const help_drop = document.querySelector(".help-drop");
+        const setting_item = document.querySelector(".setting-item");
+        const help_item = document.querySelector(".help-item");
+        const setting_btn = document.querySelector(".back-setting-btn");
+        const help_btn = document.querySelector(".back-help-btn");
+        drop_btn.onclick = (() => {
+            menu_wrapper.classList.toggle("show");
+            tooltip.classList.toggle("show");
+        });
+        setting_item.onclick = (() => {
+            menu_bar.style.marginLeft = "-400px";
+            setTimeout(() => {
+                setting_drop.style.display = "block";
+            }, 100);
+        });
+        help_item.onclick = (() => {
+            menu_bar.style.marginLeft = "-400px";
+            setTimeout(() => {
+                help_drop.style.display = "block";
+            }, 100);
+        });
+        setting_btn.onclick = (() => {
+            menu_bar.style.marginLeft = "0px";
+            setting_drop.style.display = "none";
+        });
+        help_btn.onclick = (() => {
+            help_drop.style.display = "none";
+            menu_bar.style.marginLeft = "0px";
+        });
+    </script>
+</body>
+
+</html>
