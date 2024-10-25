@@ -32,6 +32,14 @@ This snippet showcases a visually appealing and interactive search bar with smoo
 This snippet showcases a visually appealing and engaging app download button with customizable styling and hover effects, encouraging users to take action.
   - live Preview: https://docsallover.com/snippets/css/advanced-app-download-button-concept-with-css3/
 
+## 9. Animated Range Slider with HTML, CSS, and JS
+This snippet showcases a visually appealing and interactive range slider with smooth animations and customizable styling options.
+  - live Preview: https://docsallover.com/snippets/css/animated-range-slider-with-html-css-and-js/
+
+## 10. Minimalistic Login Page with CSS and Social Icons
+This snippet showcases a clean and minimalist login page design with social media integration, providing a streamlined user experience.
+  - live Preview: https://docsallover.com/snippets/css/minimalistic-login-page-with-css-and-social-icons/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
