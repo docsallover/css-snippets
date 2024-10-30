@@ -40,6 +40,14 @@ This snippet showcases a visually appealing and interactive range slider with sm
 This snippet showcases a clean and minimalist login page design with social media integration, providing a streamlined user experience.
   - live Preview: https://docsallover.com/snippets/css/minimalistic-login-page-with-css-and-social-icons/
 
+## 11. Responsive CSS3 Timeline Design With Hover Effects
+This snippet showcases a visually appealing and interactive timeline design that effectively presents a sequence of events, with engaging hover effects to highlight specific points of interest.
+  - live Preview: https://docsallover.com/snippets/css/responsive-css3-timeline-design-with-hover-effects/
+
+## 12. Responsive Review Cards Component with CSS3
+This snippet showcases a versatile and user-friendly review card component that displays user feedback in a clear and concise manner, enhancing the credibility and trustworthiness of your website.
+  - live Preview: https://docsallover.com/snippets/css/responsive-review-cards-component-with-css3/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.

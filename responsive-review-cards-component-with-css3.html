@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Reviews Example with CSS</title>
+    <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-shadow: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgb(29, 28, 44);
+        }
+
+        .review-container {
+            width: 40%;
+            background: rgb(33, 32, 50);
+            color: #fff;
+            margin: 2rem;
+            box-shadow: 1px 3px 2px rgba(0, 0, 0, .2);
+            padding: 2.5rem;
+        }
+
+        h2 {
+            margin-bottom: 3rem;
+        }
+
+        .input-field {
+            background: rgb(38, 37, 55);
+            width: 100%;
+            border: 1px solid #6F6C7C;
+            padding: .85rem;
+            border-radius: 5px;
+        }
+
+        .input-field input {
+            border: none;
+            background: transparent;
+            outline: none;
+            color: #8C8C9F;
+            width: calc(100% - 3.2rem);
+        }
+
+        .input-field i,
+        .input-field input::placeholder {
+            color: #6F6C7C;
+        }
+
+        .suggest {
+            margin-top: 1.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: .5rem;
+        }
+
+        .suggest span {
+            background: #1F1E2F;
+            padding: .65rem 1.3rem;
+            border-radius: 5px;
+            font-size: .65rem;
+            color: #8C8C9F;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+
+        .suggest span:hover,
+        .suggest span:active {
+            background: #8383ED;
+            color: #fff;
+        }
+
+        .cards {
+            margin-top: 2.5rem;
+        }
+
+        .cards .card {
+            width: 100%;
+            margin-bottom: .7rem;
+            background: rgb(45, 43, 64);
+            border-radius: 5px;
+        }
+
+        .card>* {
+            padding: 1rem 1.2rem;
+        }
+
+        .card-top {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .img {
+            width: 50px;
+            height: 50px;
+            background: purple;
+            border-radius: 50%;
+            outline: none;
+        }
+
+        .name .one {
+            background: orange;
+        }
+
+        .name,
+        .name .img {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .name .img {
+            justify-content: center;
+        }
+
+        .rate i {
+            color: yellow;
+        }
+
+        .card-content {
+            margin: 0;
+            padding-top: 0;
+        }
+
+        .card-content p {
+            font-size: .8rem;
+            color: rgb(152, 152, 165);
+        }
+
+        .card-action {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-action span {
+            font-size: .8rem;
+            color: RGB(101, 101, 114);
+        }
+
+        .card-action .btn {
+            padding: .3rem .7rem;
+            background: transparent;
+            border: 1px solid #000;
+            border-radius: 2px;
+            color: #8C8C9F;
+            cursor: pointer;
+            transition: .2s ease-in-out;
+        }
+
+        .btn:hover {
+            background: #000;
+            color: #fff;
+        }
+
+        @media screen and (max-width:750px) {
+            body {
+                padding: 0rem;
+                margin: 0;
+            }
+
+            .review-container {
+                /*     padding:0; */
+                margin: 1rem 0;
+                width: 75%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="review-container">
+        <h2>Reviews</h2>
+        <label for="search" class="input-field">
+            <i class="fas fa-search"></i>
+            <input id="search" placeholder="Search for reviews ..." type="text">
+        </label>
+        <div class="suggest">
+            <span>expriance</span>
+            <span>quality</span>
+            <span>design</span>
+            <span>size</span>
+            <span>features</span>
+            <span>values</span>
+            <span>replacement</span>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="card-top">
+                    <div class="name">
+                        <div class="img one" alt="">NF</div>
+                        <p>Full Name</p>
+                    </div>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur, impedit ullam
+                        provident deserunt repellendus fuga totam exercitationem minima molestias?</p>
+                </div>
+
+                <div class="card-action">
+                    <span>13 Feb, 2021</span>
+                    <button class="btn">
+                        <i class="fas fa-external-link-alt"></i>
+                        Share
+                    </button>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-top">
+                    <div class="name">
+                        <div class="img">FN</div>
+                        <p>Full Name</p>
+                    </div>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur, impedit ullam
+                        provident deserunt repellendus fuga totam exercitationem minima molestias?</p>
+                </div>
+
+                <div class="card-action">
+                    <span>13 Feb, 2021</span>
+                    <button class="btn">
+                        <i class="fas fa-external-link-alt"></i>
+                        Share
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+</body>
+
+</html>
