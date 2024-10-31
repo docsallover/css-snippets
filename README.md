@@ -48,6 +48,14 @@ This snippet showcases a visually appealing and interactive timeline design that
 This snippet showcases a versatile and user-friendly review card component that displays user feedback in a clear and concise manner, enhancing the credibility and trustworthiness of your website.
   - live Preview: https://docsallover.com/snippets/css/responsive-review-cards-component-with-css3/
 
+## 13. Interactive Bottom Navigation Bar Indicator with CSS
+This snippet showcases a visually appealing and user-friendly bottom navigation bar with an interactive indicator that highlights the currently active tab, improving the overall user experience.
+  - live Preview: https://docsallover.com/snippets/css/interactive-bottom-navigation-bar-indicator/
+
+## 14. Responsive Multi-Level Drop-Down Navigation Menu in CSS
+This snippet showcases a versatile and flexible multi-level drop-down navigation menu that adapts to different screen sizes and provides a clear and organized way to navigate through complex website structures.
+  - live Preview: https://docsallover.com/snippets/css/responsive-multi-level-drop-down-navigation-menu/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
