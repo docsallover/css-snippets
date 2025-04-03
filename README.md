@@ -56,6 +56,9 @@ This snippet showcases a visually appealing and user-friendly bottom navigation 
 This snippet showcases a versatile and flexible multi-level drop-down navigation menu that adapts to different screen sizes and provides a clear and organized way to navigate through complex website structures.
   - live Preview: https://docsallover.com/snippets/css/responsive-multi-level-drop-down-navigation-menu/
 
+## 15. Interactive MCQ Container with CSS & JavaScript 
+This snippet showcases an interactive MCQ container, designed with pure CSS and JavaScript to enhance user engagement and provide immediate feedback during quizzes.
+  - live Preview: https://docsallover.com/snippets/css/interactive-mcq-container-with-css-javascript/
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
