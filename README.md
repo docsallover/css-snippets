@@ -60,6 +60,11 @@ This snippet showcases a versatile and flexible multi-level drop-down navigation
 This snippet showcases an interactive MCQ container, designed with pure CSS and JavaScript to enhance user engagement and provide immediate feedback during quizzes.
   - live Preview: https://docsallover.com/snippets/css/interactive-mcq-container-with-css-javascript/
 
+## 16. Fully Responsive CSS Price Table Grid and Plan Details
+This snippet showcases a structured and adaptable price table grid, designed with pure CSS to enhance clarity and provide a seamless viewing experience across all device
+  - live Preview: https://docsallover.com/snippets/css/fully-responsive-css-price-table-grid/
+
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
