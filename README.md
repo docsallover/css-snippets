@@ -64,6 +64,10 @@ This snippet showcases an interactive MCQ container, designed with pure CSS and 
 This snippet showcases a structured and adaptable price table grid, designed with pure CSS to enhance clarity and provide a seamless viewing experience across all device
   - live Preview: https://docsallover.com/snippets/css/fully-responsive-css-price-table-grid/
 
+## 17. Responsive Poll UI Design with HTML, CSS & JavaScript
+This snippet showcases a dynamic and responsive poll interface, built with HTML, CSS, and JavaScript to ensure clarity and function seamlessly on any screen size.
+  - live Preview: https://docsallover.com/snippets/css/responsive-poll-ui-design-with-html-css-javascript/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
