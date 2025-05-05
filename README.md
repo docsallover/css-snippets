@@ -68,6 +68,10 @@ This snippet showcases a structured and adaptable price table grid, designed wit
 This snippet showcases a dynamic and responsive poll interface, built with HTML, CSS, and JavaScript to ensure clarity and function seamlessly on any screen size.
   - live Preview: https://docsallover.com/snippets/css/responsive-poll-ui-design-with-html-css-javascript/
 
+## 18. jQuery Animated Cookie Consent Box with Cookie Bubble.js
+This snippet showcases a dynamic and interactive cookie notification, utilizing jQuery and Cookie Bubble.js to deliver a clear and animated consent request that functions seamlessly on any device
+  - live Preview: https://docsallover.com/snippets/css/jquery-animated-cookie-consent-box-with-bubble-js/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
