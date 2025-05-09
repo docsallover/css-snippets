@@ -1,4 +1,12 @@
-# Reusable CSS Code Snippets for Web Development
+![docsallover-snippets](https://github.com/user-attachments/assets/08b9a424-9347-4cbe-b736-b340764e2124)
+
+<p align="center">
+  <a href="https://docsallover.com/">
+    <img src="https://docsallover.com/static/images/logo-landscape.png" alt="DocsAllOver Logo" width="500">
+  </a>
+</p>
+
+<h1 align="center">Reusable CSS Code Snippets for Web Development</h1>
 
 ## 1. Lightweight FAQ Accordion Component with CSS
 This snippet showcases a compact and efficient FAQ component that allows users to easily expand and collapse frequently asked questions, providing a clean and organized layout.
