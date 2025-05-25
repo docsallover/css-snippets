@@ -80,6 +80,11 @@ This snippet showcases a dynamic and responsive poll interface, built with HTML,
 This snippet showcases a dynamic and interactive cookie notification, utilizing jQuery and Cookie Bubble.js to deliver a clear and animated consent request that functions seamlessly on any device
   - live Preview: https://docsallover.com/snippets/css/jquery-animated-cookie-consent-box-with-bubble-js/
 
+## 19. Stylish CSS Toast Notification With Animated Progress Bar
+This snippet showcases a modern and engaging CSS toast notification, providing timely alerts with a visual progress bar that enhances user understanding on any screen size.
+  - live Preview: https://docsallover.com/snippets/css/stylish-css-toast-notification-with-progress-bar/
+
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
