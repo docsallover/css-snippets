@@ -84,6 +84,10 @@ This snippet showcases a dynamic and interactive cookie notification, utilizing 
 This snippet showcases a modern and engaging CSS toast notification, providing timely alerts with a visual progress bar that enhances user understanding on any screen size.
   - live Preview: https://docsallover.com/snippets/css/stylish-css-toast-notification-with-progress-bar/
 
+## 20. Modern CSS Only Loading Spinners Collection
+This snippet showcases a modern and engaging collection of CSS-only loading spinners, providing timely visual feedback that enhances user understanding of background processes on any screen size.
+  - live Preview: https://docsallover.com/snippets/css/modern-css-only-loading-spinners-collection/
+
 
 
 ## License
