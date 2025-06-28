@@ -88,7 +88,9 @@ This snippet showcases a modern and engaging CSS toast notification, providing t
 This snippet showcases a modern and engaging collection of CSS-only loading spinners, providing timely visual feedback that enhances user understanding of background processes on any screen size.
   - live Preview: https://docsallover.com/snippets/css/modern-css-only-loading-spinners-collection/
 
-
+## 21. Responsive CSS Only Smooth Sliding Tab Transitions
+This CSS snippet showcases a clean, responsive, and interactive set of tabbed content sections with smooth sliding transitions, all achieved using CSS only, providing an elegant way to organize and display content that enhances the user experience without relying on JavaScript for core animation.
+  - live Preview: https://docsallover.com/snippets/css/responsive-css-only-smooth-sliding-tab-transitions/
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
