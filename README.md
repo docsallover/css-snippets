@@ -92,6 +92,11 @@ This snippet showcases a modern and engaging collection of CSS-only loading spin
 This CSS snippet showcases a clean, responsive, and interactive set of tabbed content sections with smooth sliding transitions, all achieved using CSS only, providing an elegant way to organize and display content that enhances the user experience without relying on JavaScript for core animation.
   - live Preview: https://docsallover.com/snippets/css/responsive-css-only-smooth-sliding-tab-transitions/
 
+## 21. Creative CSS Intro Text Reveal Animation with No JS
+This CSS snippet showcases a creative and engaging intro text reveal animation, providing a dynamic and visually appealing way to present headlines or key messages purely with CSS, enhancing the user experience without relying on JavaScript for core animation.
+  - live Preview: https://docsallover.com/snippets/css/creative-css-intro-text-reveal-animation/
+
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
