@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Boxicons CSS -->
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+  <title>Interactive Navbar with Sliding Active Indicator with CSS and JS</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #7d2ae8;
+    }
+
+    .navbar {
+      position: relative;
+      height: 120px;
+      width: 500px;
+      background: #fff;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar ul {
+      position: relative;
+      display: flex;
+    }
+
+    .navbar ul li {
+      position: relative;
+      list-style-type: none;
+    }
+
+    .navbar ul li a {
+      position: relative;
+      height: 120px;
+      width: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+
+    .navbar ul li a i {
+      position: absolute;
+      font-size: 38px;
+      color: #7d2ae8;
+    }
+
+    ul li a i.activeIcon {
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.6s ease;
+      transition-delay: 0.2s;
+    }
+
+    .navbar ul li.active a i {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .navbar ul .indicator {
+      position: absolute;
+      bottom: -19px;
+      left: 34px;
+      height: 36px;
+      width: 25px;
+      background: #7d2ae8;
+      border-radius: 50%;
+      transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    ul .indicator::before {
+      content: "";
+      position: absolute;
+      left: -15px;
+      bottom: 50%;
+      height: 22px;
+      width: 20px;
+      background: #fff;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0 10px 0 #7d2ae8;
+    }
+
+    ul .indicator::after {
+      content: "";
+      position: absolute;
+      right: -15px;
+      bottom: 50%;
+      height: 22px;
+      width: 20px;
+      background: #fff;
+      border-bottom-left-radius: 20px;
+      box-shadow: 0 10px 0 #7d2ae8;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li class="active">
+        <a href="#">
+          <i class="bx bx-home icon"></i>
+          <i class="bx bxs-home activeIcon"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-user icon"></i>
+          <i class="bx bxs-user activeIcon"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-heart icon"></i>
+          <i class="bx bxs-heart activeIcon"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-folder icon"></i>
+          <i class="bx bxs-folder activeIcon"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-cog icon"></i>
+          <i class="bx bxs-cog activeIcon"></i>
+        </a>
+      </li>
+      <div class="indicator"></div>
+    </ul>
+  </div>
+
+  <script>
+
+    const navBar = document.querySelector(".navbar")
+    allLi = document.querySelectorAll("li");
+
+    allLi.forEach((li, index) => {
+      li.addEventListener("click", e => {
+        e.preventDefault(); //preventing from submitting
+        navBar.querySelector(".active").classList.remove("active");
+        li.classList.add("active");
+
+        const indicator = document.querySelector(".indicator");
+        indicator.style.transform = `translateX(calc(${index * 90}px))`;
+      });
+    });
+
+  </script>
+
+</body>
+
+</html>
