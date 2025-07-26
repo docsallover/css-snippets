@@ -100,6 +100,10 @@ This CSS snippet showcases a creative and engaging intro text reveal animation, 
 This interactive snippet showcases a dynamic navigation bar featuring a smooth sliding active indicator, providing a visually engaging and user-friendly way to highlight selected menu items using a combination of CSS and JavaScript.
   - live Preview: https://docsallover.com/snippets/css/interactive-navbar-with-sliding-active-indicator/
 
+## 24. Interactive CSS Navigation Menu with Tab Indicators
+This CSS snippet showcases a visually appealing and user-friendly navigation menu with an interactive tab indicator that highlights the currently active item, improving the overall user experience.
+  - live Preview: https://docsallover.com/snippets/css/interactive-css-navigation-menu-with-tab-indicator/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
