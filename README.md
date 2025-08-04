@@ -104,6 +104,10 @@ This interactive snippet showcases a dynamic navigation bar featuring a smooth s
 This CSS snippet showcases a visually appealing and user-friendly navigation menu with an interactive tab indicator that highlights the currently active item, improving the overall user experience.
   - live Preview: https://docsallover.com/snippets/css/interactive-css-navigation-menu-with-tab-indicator/
 
+## 25. Responsive Interactive Login & Register Form with CSS & JS Transitions
+This snippet showcases a responsive and interactive login and register form, providing a seamless and engaging user authentication experience with smooth CSS and JavaScript transitions between the two forms.
+  - live Preview: https://docsallover.com/snippets/css/responsive-interactive-login-register-form-css/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
