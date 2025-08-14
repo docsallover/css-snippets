@@ -108,7 +108,7 @@ This CSS snippet showcases a visually appealing and user-friendly navigation men
 This snippet showcases a responsive and interactive login and register form, providing a seamless and engaging user authentication experience with smooth CSS and JavaScript transitions between the two forms.
   - live Preview: https://docsallover.com/snippets/css/responsive-interactive-login-register-form-css/
 
-## 25. Responsive CSS Only Services Section with Hover Effects
+## 26. Responsive CSS Only Services Section with Hover Effects
 This CSS snippet showcases a modern and responsive services section, providing a clean and organized way to present your offerings with engaging hover effects.
   - live Preview: https://docsallover.com/snippets/css/responsive-css-only-services-section-with-hover/
 
