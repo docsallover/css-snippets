@@ -112,6 +112,10 @@ This snippet showcases a responsive and interactive login and register form, pro
 This CSS snippet showcases a modern and responsive services section, providing a clean and organized way to present your offerings with engaging hover effects.
   - live Preview: https://docsallover.com/snippets/css/responsive-css-only-services-section-with-hover/
 
+## 27. Responsive CSS-Only Glassmorphism Login Form with background image
+This CSS snippet showcases a modern and responsive login form, providing a clean and organized way to handle user authentication with a stylish glassmorphism effect and a background image.
+  - live Preview: https://docsallover.com/snippets/css/responsive-css-only-glassmorphism-login-form/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
